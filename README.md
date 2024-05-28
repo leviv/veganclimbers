@@ -1,8 +1,8 @@
-# SvelteKit static blog starter
+# Vegan climbers
 
-This starter contains everything you need to get up and running with
-[SvelteKit](https://kit.svelte.dev/) as a static site generator for your
-Markdown (and Svelte)-powered blog.
+A hub for vegan climbing community, discussion, and information.
+
+This website was made using the SvelteKit static blog starter
 [Check out the demo here](https://sveltekit-static-starter.netlify.app/), or
 view the
 [GitHub repo here](https://github.com/josh-collinsworth/sveltekit-blog-starter).
@@ -39,12 +39,12 @@ view the
 ## Quick Start
 
 Clone or download
-[this repo](https://github.com/josh-collinsworth/sveltekit-blog-starter), then
+[this repo](https://github.com/leviv/veganclimbers), then
 install the dependencies and run the dev server:
 
 ```
-npx degit https://github.com/josh-collinsworth/sveltekit-blog-starter my-sveltekit-blog
-cd my-sveltekit-blog
+npx degit https://github.com/leviv/veganclimbers veganclimbers
+cd veganclimbers
 npm install
 npm run dev -- --open
 ```
@@ -62,7 +62,7 @@ Now all you need to do is:
 GLHF! Details below. 👇
 
 (_Feel free to
-[open an issue](https://github.com/josh-collinsworth/sveltekit-blog-starter/issues/new)
+[open an issue](https://github.com/leviv/veganclimbers/issues)
 if you come across one._)
 
 ## Customization
@@ -227,4 +227,4 @@ I've tried my best to make sure this starter is up to date with the latest
 SvelteKit, but I'm sure improvements can be made. Feel free to
 [visit the repo](https://github.com/josh-collinsworth/sveltekit-blog-starter)
 and submit a pull request, or
-[contact me directly](https://joshcollinsworth.com/contact).
+[contact me directly](https://leviv.cool).
