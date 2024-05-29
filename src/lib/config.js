@@ -17,12 +17,12 @@ export const postsPerPage = 10;
 // Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
 export const navItems = [
 	{
-		title: 'Blog',
-		route: '/blog'
-	},
-	{
 		title: 'Gear',
 		route: '/gear'
+	},
+	{
+		title: 'Blog',
+		route: '/blog'
 	},
 	{
 		title: 'About',
@@ -34,13 +34,21 @@ export const navItems = [
 	}
 ];
 
+// Icons are from https://icons8.com/icon/set/social-media/doodle
 export const socials = [
 	{
 		title: 'Instagram',
-		url: 'https://www.instagram.com/veganclimbers/'
+		url: 'https://www.instagram.com/veganclimbers/',
+		image: "icons/instagram2.svg"
 	},
 	{
 		title: 'Email',
-		url: 'mailto:villarreallevi@gmail.com'
+		url: 'mailto:villarreallevi@gmail.com',
+		image: "icons/gmail2.svg"
+	},
+	{
+		title: 'TikTok',
+		url: 'https://www.tiktok.com/@soy.shania',
+		image: "icons/tiktok.svg"
 	}
 ];
