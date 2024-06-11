@@ -19,15 +19,19 @@
     Skip to main content
   </a>
 
-  <nav class="main-nav" class:open={$isMenuOpen}>
-    <ul>
-      {#each navItems as page}
-        <NavItem href={page.route}>
-          {page.title}
-        </NavItem>
-      {/each}
-    </ul>
-  </nav>
+  <HomeIcon />
+
+  <div class="header-container">
+    <nav class="main-nav" class:open={$isMenuOpen}>
+      <ul>
+        {#each navItems as page}
+          <NavItem href={page.route}>
+            {page.title}
+          </NavItem>
+        {/each}
+      </ul>
+    </nav>
+  </div>
 
   <div class="social">
     <ul>
@@ -38,16 +42,17 @@
       {/each}
     </ul>
   </div>
-
-  <HomeIcon />
 </header>
 
 <style>
   header {
     margin: 0 0px 0 150px;
-    height: 100px;
     display: flex;
     align-items: center;
+  }
+
+  .header-container {
+    height: 100px;
   }
 
   /** Skip to content for screen reader accessibility */
